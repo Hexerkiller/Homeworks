@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background: teal;
+    border-radius: 8px;
+    margin: 15px auto;
+}
+button{
+    position: relative;
+    color: wheat;
+    margin: 50px;
+    width: 100px;
+    height: 50px;
+    background: rgb(1, 82, 82);
+    border: 2px solid rgb(126, 196, 126) ;
+}
+button:hover{
+color: white;
+background: transparent;
+}
+button:active::after{
+
+    content: "Кнопка нажата";
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: teal;
+    
+}

@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.general {
+  height: 100lvh;
+
+  background-color: rgb(166, 166, 199);
+}
+.img {
+  width: 277px;
+  height: 300px;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+  margin-bottom: 25px;
+  font-size: 36px;
+}
+
+.inter {
+  display: flex;
+  max-width: 280px;
+  max-height: 700px;
+  border: 1px solid black;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.texth {
+  margin: 0 auto;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.button {
+  font-size: 20px;
+}
+
+.divhead {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  background-color: rgb(166, 166, 199);
+  flex-wrap: wrap;
+  gap: 100px;
+  margin: auto 10px;
+}
+
+@media (max-width: 1100px) {
+  .inter {
+    max-width: 170px;
+    max-height: 450px;
+    font-size: 12px;
+  }
+  .img {
+    max-width: 167px;
+    max-height: 200px;
+  }
+  .header {
+    font-size: 30px;
+  }
+  .button {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1000px) {
+  .inter {
+    max-width: 180px;
+    max-height: 450px;
+    font-size: 12px;
+  }
+  .img {
+    max-width: 177px;
+    max-height: 200px;
+  }
+  .header {
+    font-size: 30px;
+  }
+  .button {
+    font-size: 16px;
+  }
+}
+@media (max-width: 800px) {
+  .inter {
+    max-width: 150px;
+    max-height: 325px;
+    font-size: 12px;
+  }
+  .img {
+    max-width: 147px;
+    max-height: 160px;
+  }
+  .header {
+    font-size: 24px;
+  }
+  .button {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 600px) {
+  .inter {
+    max-width: 125px;
+    max-height: 355px;
+    font-size: 10px;
+  }
+  .img {
+    max-width: 123px;
+    max-height: 150px;
+  }
+  .header {
+    font-size: 24px;
+  }
+  .button {
+    font-size: 12px;
+  }
+}
+@media (max-width: 450px) {
+  .inter {
+    max-width: 90px;
+    max-height: 300px;
+    font-size: 10px;
+  }
+  .img {
+    max-width: 87px;
+    max-height: 100px;
+  }
+  .header {
+    font-size: 20px;
+  }
+  .button {
+    font-size: 10px;
+  }
+}

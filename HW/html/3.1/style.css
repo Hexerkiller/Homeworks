@@ -1,0 +1,75 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  padding: 10px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 500px;
+  border-radius: 10px;
+  background: rgb(157, 157, 202);
+}
+.first {
+  display: flex;
+  flex-direction: column;
+}
+.inp1 {
+  margin: 5px 10px;
+}
+legend {
+  margin-left: 10px;
+}
+.second {
+  display: flex;
+  flex-direction: column;
+}
+.down {
+  display: flex;
+  gap: 20px;
+}
+.second {
+  width: 230px;
+  padding: 10px;
+  display: flex;
+  gap: 15px;
+}
+
+.third {
+  width: 230px;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.first input {
+  background: rgb(200, 222, 230);
+  color: rgb(79, 121, 124);
+  border: none;
+  border-radius: 8px;
+}
+.inp1:focus {
+  color: rgb(82, 23, 109);
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid black;
+  background: transparent;
+  height: 30px;
+  width: 100px;
+  margin: 10px auto;
+}
+button:hover {
+  background: rgb(125, 125, 194);
+  color: white;
+}
+legend{
+    font-size: 20px;
+}

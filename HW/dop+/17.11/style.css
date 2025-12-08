@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#base{
+margin-top: 22px;
+}
+#search{
+    padding: 7px 12px;
+    width: 269px;
+    height: 29px;
+    display: flex;
+    margin: 22px auto;
+    border-radius: 8px;
+}
+#container{
+    
+    margin-top: 22px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 71px 98px;
+}
+#card{
+    padding: 13px 21px;
+margin: 0 auto;
+    width: 250px;
+    height: 400px;
+    border: 1px solid black;
+display: flex;
+flex-direction: column;
+
+gap: 10px;
+}
+#name{
+    margin-top: 24px;
+}
