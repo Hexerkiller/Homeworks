@@ -1,0 +1,3 @@
+[submodule "HW/linux/10/git-branch"]
+	path = HW/linux/10/git-branch
+	url = https://github.com/Hexerkiller/git-branch.git
