@@ -1,0 +1,36 @@
+
+
+/*# sourceMappingURL=style.css.map */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.modal {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.modal_container {
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.modal_active {
+    display: flex;
+}
+.error {
+    color: red;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
