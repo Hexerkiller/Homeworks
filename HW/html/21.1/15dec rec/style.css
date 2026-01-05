@@ -1,0 +1,134 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.sidebar {
+  position: relative;
+  width: 75px;
+  background-color: #333331;
+  color: white;
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  border-radius: 0 10px 10px 0;
+  align-items: center;
+  padding: 20px 16px;
+  transition: 0.4s ease;
+  overflow: hidden;
+}
+
+.sidebar.open {
+  width: 292px;
+}
+
+.menu_toggle {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+}
+
+.menu_toggle img {
+  width: 28px;
+}
+
+.logo {
+  justify-self: center;
+  font-size: 32px;
+  padding: 10px 12px;
+  width: max-content;
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: opacity 0.3s ease 0.1s, transform 0.3s ease 0.1s;
+}
+
+.sidebar.open .logo {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.nav-links {
+  margin-top: 35px;
+  align-self: start;
+  display: grid;
+  gap: 12px;
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: opacity 0.3s ease 0.1s, transform 0.3s ease 0.1s;
+}
+
+.sidebar.open .nav-links {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  transition: color 0.2s ease;
+}
+
+.pinguin {
+  justify-self: center;
+  width: 90px;
+  height: 90px;
+  opacity: 0.9;
+  transform: translateX(-20px);
+  transition: opacity 0.3s ease 0.1s, transform 0.3s ease 0.1s;
+}
+
+.sidebar.open .pinguin {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.pinguin img {
+ margin-top: 20px;
+  max-width: 70px;
+  height: auto;
+  display: block;
+  
+}
+
+.homeitems{
+  display: none;
+ transition: opacity 0.3s ease 0.1s, transform 0.3s ease 0.1s;
+}
+.homeitems.homeopen{
+display: flex;
+flex-direction: column;
+padding-left: 20px;
+
+}
+
+.aboutitems{
+  display: none;
+ transition: opacity 0.3s ease 0.1s, transform 0.3s ease 0.1s;
+}
+.aboutitems.aboutopen{
+display: flex;
+flex-direction: column;
+padding-left: 20px;
+
+}
+
+.registeritems{
+  display: none;
+ transition: opacity 0.3s ease 0.1s, transform 0.3s ease 0.1s;
+}
+.registeritems.registeropen{
+display: flex;
+flex-direction: column;
+padding-left: 20px;
+
+}
